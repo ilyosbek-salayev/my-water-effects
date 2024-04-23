@@ -1,4 +1,4 @@
-@media (max-width:500px ) {
+@media (max-width:425px ) {
     .body {
         background: url('./photo_2024-04-10_21-00-07.jpg') left top cover;
         width: 100%;
@@ -7,9 +7,9 @@
         
     }
     .me {
-        font-size: 5rem !important;
-        left: 5% !important;
-        top: 50% !important;
+        font-size: 4rem !important;
+        left: 10% !important;
+        top: 40% !important;
     }
 
 }
