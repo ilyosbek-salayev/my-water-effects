@@ -1,0 +1,32 @@
+@media (max-width:500px ) {
+    .body {
+        background: url('./photo_2024-04-10_21-00-07.jpg') left top cover;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        
+    }
+    .me {
+        font-size: 5rem !important;
+        left: 5% !important;
+        top: 50% !important;
+    }
+
+}
+
+.me {
+    color: #000000;
+    font-size: 10.3rem;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: #FFF;
+    -webkit-text-stroke-color: #000000;
+    text-shadow: 0 0 55px #ffffff9f;
+    cursor: none;
+}
+.control {
+    display: block;
+    
+}
