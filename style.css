@@ -1,15 +1,14 @@
-@media (max-width:425px ) {
-    .body {
-        background: url('./photo_2024-04-10_21-00-07.jpg') left top cover;
-        width: 100%;
-        overflow: hidden;
-        height: 100%;
-        
+@media (max-width:425px ) { 
+    body {
+        background-color: #000000;
     }
     .me {
-        font-size: 3rem !important;
-        left: 10% !important;
+        font-size: 4.5rem !important;
+        left: 5% !important;
         top: 40% !important;
+    }
+    #ripple {
+        background: url('./photo_2024-04-10_21-00-07.jpg') left top fixed !important;
     }
 
 }
@@ -28,5 +27,10 @@
 }
 .control {
     display: block;
-    
+}
+#ripple {
+    background: url('./maxresdefault.jpg') left top / cover; 
+    height: 58rem;
+    width: 100%;
+    overflow: hidden !important;
 }
